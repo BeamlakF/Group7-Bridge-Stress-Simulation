@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+#info {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  z-index: 100;
+}
+
+#info h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+#info p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
